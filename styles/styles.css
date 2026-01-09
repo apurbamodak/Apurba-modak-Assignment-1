@@ -143,6 +143,21 @@ nav .nav-links .links a {
     margin: 0 auto;
 }
 
+#notes .notes-contain .notes-info h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    627382 margin-bottom: 16px;
+}
+
+#notes .notes-contain .notes-info p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
 #notes .notes-contain .info-box {
     display: flex;
     justify-content: space-between;
@@ -304,6 +319,7 @@ nav .nav-links .links a {
     place-items: center;
     margin: 0 auto;
     margin-right: 6px;
+    cursor: pointer;
 
 }
 
