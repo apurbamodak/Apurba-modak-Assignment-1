@@ -19,6 +19,9 @@
     font-weight: 600px;
     color: white;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .just-btn {
@@ -188,6 +191,7 @@ nav .nav-links .links a {
 
 #solution {
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 #solution .solution-flex {
@@ -232,4 +236,41 @@ nav .nav-links .links a {
     font-weight: 500px;
     color: #001931;
     margin-bottom: 16px;
+}
+
+#challenge {
+    padding-bottom: 120px;
+}
+
+#challenge .challenge-contain {
+    width: 66%;
+    max-width: 1360px;
+    margin: 0 auto;
+    place-items: center;
+    background-color: #F7F6F2;
+}
+
+.challenge-contain h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.challenge-contain p {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.challenge-contain .buttons {
+    margin-bottom: 16px;
+}
+
+.challenge-contain .foot {
+    line-height: 20px;
+    padding-bottom: 80px;
+
 }
